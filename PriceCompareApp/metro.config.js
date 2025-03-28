@@ -1,8 +1,8 @@
-const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config');
+const { getDefaultConfig } = require('@react-native/metro-config');
 
 const defaultConfig = getDefaultConfig(__dirname);
 
-const config = {
+module.exports = {
   transformer: {
     getTransformOptions: async () => ({
       transform: {
@@ -15,5 +15,3 @@ const config = {
     sourceExts: ['jsx', 'js', 'ts', 'tsx', 'cjs', 'json']
   },
 };
-
-module.exports = mergeConfig(defaultConfig, config);
