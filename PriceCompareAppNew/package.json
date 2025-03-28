@@ -1,0 +1,26 @@
+{
+  "name": "PriceCompareAppNew",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-firebase/app": "21.12.3",
+    "@react-native-firebase/auth": "21.12.3",
+    "@react-native-firebase/firestore": "21.12.3",
+    "react": "19.0.0",
+    "react-native": "0.78.1"
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "latest",
+    "@react-native/metro-config": "^0.78.1",
+    "@types/react": "19.0.12",
+    "@types/react-native": "0.73.0",
+    "typescript": "5.8.2"
+  }
+}
